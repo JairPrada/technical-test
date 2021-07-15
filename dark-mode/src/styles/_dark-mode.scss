@@ -1,55 +1,48 @@
+
 .dark-mode {
   background: #121212;
-
+  transition: all .5s;
   p {
     color: white;
     opacity: 87%;
   }
-
   .title {
-    color: #BB86FC;
+    color: #bb86fc;
   }
 
   .subtitle {
-    color: #03DAC6;
+    color: #03dac6;
   }
 
   .is-primary {
-    background-color: #BB86FC;
+    background-color: #bb86fc;
     color: black;
   }
-
   .is-primary:hover,
   .is-primary:focus {
-    background-color: #BB86FC;
+    background-color: #bb86fc;
     opacity: 75%;
     color: black;
   }
-
   .is-link {
-    background-color: #03DAC6;
+    background-color: #03dac6;
     color: black;
   }
-
   .is-link:hover,
   .is-link:focus {
-    background-color: #03DAC6;
+    background-color: #03dac6;
     opacity: 75%;
     color: black;
   }
-
   input {
     background: rgba(255, 255, 255, 0.2);
     color: white;
-
     &::placeholder {
       color: white;
     }
-
     &:hover {
       border-color: rgba(255, 255, 255, 0.4);
     }
-
     &:focus {
       border-color: rgba(255, 255, 255, 0.6);
     }
