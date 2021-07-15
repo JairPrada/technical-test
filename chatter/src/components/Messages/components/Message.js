@@ -1,9 +1,7 @@
-import React from 'react';
 import cx from 'classnames';
-
 const ME = 'me';
 
-export default function Message({ nextMessage, message, botTyping }) {
+export default function Message({ nextMessage="Hola", message={user:"me",message:"Adios mi amigo el puma"}, botTyping ="false"}) {
   return (
     <p
       className={cx(
