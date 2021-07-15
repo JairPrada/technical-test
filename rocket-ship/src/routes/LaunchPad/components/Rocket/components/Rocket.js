@@ -2,7 +2,7 @@ import React, { useState, Component } from 'react';
 import RocketCore from './RocketCore';
 
 export function FunctionalRocket() {
-  const [initialLaunchTime] = useState(Date.now());
+  const [initialLaunchTime] = useState(0);
 
   return <RocketCore initialLaunchTime={initialLaunchTime} />;
 }
@@ -12,7 +12,7 @@ export class ClassRocket extends Component {
     super();
 
     this.state = {
-      initialLaunchTime: Date.now()
+      initialLaunchTime: 0
     };
   }
 
