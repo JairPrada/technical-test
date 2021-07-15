@@ -1,4 +1,4 @@
-@import '../../../styles/vars';
+@import "../../../styles/vars";
 
 .player {
   position: absolute;
@@ -92,7 +92,7 @@
     }
 
     &:after {
-      content: '';
+      content: "";
       width: 25px;
       height: 25px;
       position: absolute;
@@ -120,14 +120,14 @@
 
   &__actions {
     color: $primary-grey;
-
+    
     > .fa-ellipsis-h {
       display: none;
       margin-right: 0 !important;
     }
 
     @media only screen and (max-width: 750px) {
-      > svg:not(.fa-ellipsis-h)  {
+      > svg:not(.fa-ellipsis-h) {
         display: none;
         width: 0 !important;
         margin: 0;
